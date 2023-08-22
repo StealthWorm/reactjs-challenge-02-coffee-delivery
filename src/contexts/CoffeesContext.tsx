@@ -2,7 +2,13 @@ import { ReactNode, createContext, useEffect, useReducer } from "react";
 
 import { COFFEES } from "../utils/data";
 import { CoffeeItem, CreateNewOrderData, Order, coffeesReducer } from "../reducers/coffees/reducer";
-import { addCoffeeToCartAction, createNewOrderAction, decrementQuantityAction, incrementQuantityAction, removeCoffeeFromCartAction } from "../reducers/coffees/actions";
+import {
+  addCoffeeToCartAction,
+  createNewOrderAction,
+  decrementQuantityAction,
+  incrementQuantityAction,
+  removeCoffeeFromCartAction
+} from "../reducers/coffees/actions";
 
 enum PaymentMethodsTypes {
   CREDIT = 'Cartão de Crédito',

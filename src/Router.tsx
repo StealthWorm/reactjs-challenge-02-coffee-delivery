@@ -4,12 +4,8 @@ import { DefaultLayout } from './layouts/DefaultLayout'
 import { Home } from './pages/Home'
 import { Checkout } from './pages/Checkout'
 import { Success } from './pages/Success'
-import { useContext } from 'react'
-import { CoffeesContext } from './contexts/CoffeesContext'
 
 export function Router() {
-  const { order } = useContext(CoffeesContext)
-
   return (
     <Routes>
       <Route path="/" element={<DefaultLayout />}>
