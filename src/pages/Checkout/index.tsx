@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 
 import { CheckoutContainer, Total, OrderInfo, Cart, ItemsList } from "./styles";
@@ -31,7 +31,6 @@ export function Checkout() {
     itemsTotalCost,
     deliveryValue,
     createNewOrder,
-    orders,
     coffeesInCart
   } = useContext(CoffeesContext)
   const navigate = useNavigate();
