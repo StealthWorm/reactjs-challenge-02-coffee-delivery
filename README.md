@@ -6,8 +6,6 @@
   <img src="public\photo2.png" alt="Main Page" style="width: 200px; height: 200px;">
 </div>
 
-<div style="background: linear-gradient(to bottom, #00000000, #000000); width: 100%; height: 100%; position: absolute;"></div>
-
 <br>
 
 ## Project Overview
